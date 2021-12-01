@@ -1,0 +1,8 @@
+1. Apa itu `localStorage`?
+= Local Storage adalah property yang memungkinkan sites dapat mengakses key value di web browser
+tanpa kadaluwarsa.
+2. Apa itu `cookies`?
+= Cookies adalah rekam jejak dan aktivitas ketika mengakses sebuah web.
+3. Apa perbedaan antara `localStorage` dan `sessionStorage`?
+= Local Storage datanya tidak expired sedangakang di session storange
+ketika session nya berakhir maka datanya akan clear.

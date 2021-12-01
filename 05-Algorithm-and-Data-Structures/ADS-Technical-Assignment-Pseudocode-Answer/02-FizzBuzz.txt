@@ -1,0 +1,15 @@
+SET i=0
+FOR i in 1 to 21
+    (If i % 3 = 0 and i % 5 = 0 Then)
+        SET hasil = ('FrizzBuzz')
+        Display hasil
+    (Else If i % 3 = 0 Then)
+        SET hasil = ('Frizz')
+        Display in
+    (Else i % 5 = 0 Then)
+        SET hasil = ('Buzz')
+        Display hasil
+    (Else)
+        Display i
+    (End IF)
+End Loop

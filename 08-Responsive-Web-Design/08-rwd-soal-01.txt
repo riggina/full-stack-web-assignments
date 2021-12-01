@@ -1,0 +1,31 @@
+Apa itu responsive web design?
+Sebutkan apa saja relative units yang dimiliki oleh CSS?
+Apa itu breakpoint? Bagaimana cara kita membuat hal tersebut?
+Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 1 dimensi?
+Apa yang dilakukan untuk menampilkan tata letak suatu element dalam bidang 2 dimensi?
+
+
+#JAWAB
+1. Responsive web design membuat desain website kita dapat diakses dalam device apapun. Baik itu
+dari mobile, desktop, ataupun tablet.
+
+2. Relative Unit CSS,
+> em        > vw        > %
+> ex        > vh
+> ch        > vmin
+> rem       > vmax
+
+3. Breakpoint merupakan point dimana konten dan design web beradaptasi dengan cara tertentu
+untuk memberikan experience sebaik mungkin ke pengguna.
+> cara membuat breakpoint 
+=>. Dengan develop untuk versi mobile terlebih dahulu. Dengan develop dan desain mobile first content.
+Karena ketika kita develop untuk versi desktop first susah untuk expand ke versi mobile.
+=>. Poin-poin penting yang harus diperhatikan:
+    > Menu Penting sebagai Prioritas
+    > Hapus yang mengganggu secara visual
+    > Important untuk di ingat yaitu breakpoint utama. Ukuran layar umum (480px, 768px, 1024px, dan 1280px).
+=>. Sembunyikan atau tampilkan elemen pada breakpoint tertentu.
+=>. Tidak disarankan untuk menentukan breakpoint standar untuk responsive design berdasarkan ukuran device tertentu.
+
+4. Dengan menggunakan flexbox
+5. Grid

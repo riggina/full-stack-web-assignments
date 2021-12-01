@@ -1,0 +1,10 @@
+Input s as string
+Function reverse(s):
+    var result = ""
+    FOR i in s 
+        result = i + result
+    return result
+IF s = reverse(s) Then
+    Display True
+Else
+    Display False

@@ -1,0 +1,28 @@
+.carousel {
+    height: 80vh;
+    margin-bottom: 10px;
+}
+
+.carousel-item{
+    height: 80vh;
+}
+
+.carousel-item > img{
+    min-height: 700px;
+    object-fit: cover;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .carousel{
+        display: none;
+    }
+    .list-group{
+        display: none;
+    }
+    .title{
+        text-align: center;
+    }
+}
+
+

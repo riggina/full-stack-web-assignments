@@ -1,0 +1,11 @@
+Input Nilai_Awal
+Input Nilai=Nilai_Awal
+
+While Nilai % 5 != 0 Then
+    Nilai += 1
+End While
+
+If Nilai > 3 Then
+    Display Nilai
+Else
+    Display Nilai_Awal

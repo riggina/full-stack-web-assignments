@@ -1,0 +1,14 @@
+
+Input besar_temprature
+Input tipe_temprature
+
+If type is "farenheit" Then
+    SET hasil = (besar_temprature - 32)* (5/9)
+    Display hasil
+Else If type is "kelvin" Then
+    Set hasil(besar_temprature - 273.15)
+    Display hasil
+Else
+    Display besar_temprature
+End If
+
