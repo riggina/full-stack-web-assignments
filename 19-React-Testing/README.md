@@ -1,36 +1,70 @@
-## Description
-Kita akan melakukan testing pada React App menggunakan Jest.
+# Getting Started with Create React App
 
-Gunakan template yang ada pada repository https://github.com/impactbyte/react-testing-with-jest. Clone dan jalankan menggunakan `yarn start` atau `npm start`. Isilah titik-titik kode yang ada pada template.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Terdapat 2 file yang ingin kita lakukan testing yaitu `Math.js` dan `App.js`
+## Available Scripts
 
-File testing terdapat pada folder `__tests__` yaitu Math.test.js dan `App.test.js`.
+In the project directory, you can run:
 
-**`Math.js`**
+### `yarn start`
 
-Terdapat 3 function yang harus dilakukan testing yaitu `Add`, `Substract`, dan `Multiplication`.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Template testing sudah disiapkan di dalam file `Math.test.js`. Yang perlu kamu lakukan adalah:
-1. Membuat unit testing untuk method `Add`. Gunakan mathers `toBe()`.
-2. Membuat unit testing untuk method `Substract`. Gunakan mathers `toBe()`.
-3. Membuat unit testing untuk method `Multiplication`. Gunakan mathers `toBe()`.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-Gunakan metode *Arrange, Act, dan Assert* pada setiap unit testing.
+### `yarn test`
 
-**`App.js`**
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Jika aplikasi kamu jalankan menggunakan `yarn start` atau `npm start` maka aplikasi ini akan menampilkan todolist sederhana. Kamu dapat melihat default todolist dan menambahkan todolist.
+### `yarn build`
 
-Template testing untuk `App.js` sudah disiapkan pada file `App.test.js`. Yang perlu kamu lakukan adalah:
-1. Membuat unit testing pada method `AddTodo` untuk memastikan bahwa setiap user yang **menambahkan** todolist akan membuat list pada todolist bertambah. Gunakan matchers `toBe()`
-2. Membuat unit testing pada method `AddTodo` untuk memastikan bahwa todolist yang baru tidak mereplace daftar todolist sebelumnya. Gunakan matchers `not.toBe()`
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Expected Result
-`npm run test`
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-![React Testing](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/react-testing.png)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-`npm start`
+### `yarn eject`
 
-![Todolist](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/todolist-react-testing.png)
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
