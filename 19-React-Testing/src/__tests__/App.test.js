@@ -2,7 +2,7 @@ import { AddTodo } from '../components/helper';
 import { Add } from '../Math';
 
 test('Should add todo to the list', () => {
-  // Arrange
+  // Arrange 
   const defaultTodo = [
     {
       id: 1,
