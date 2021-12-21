@@ -17,6 +17,6 @@ Apa yang dimaksud dengan docker registery ?
 
 
 Jelaskan bagaimana cara untuk menjalankan lebih dari 1 container secara bersamaan dan saling terhubung !
-= Dengan menggunakan docker compose. Pertama membuat file dockercompose.yml pada project, lalu tuliskan beberapa perintah dan jalankan menggunakan perintah <docker-compose dockercompose.yml up>
+= Dengan menggunakan docker compose. Pertama membuat file dockercompose.yml pada project, lalu tuliskan beberapa perintah dan jalankan menggunakan perintah (docker-compose dockercompose.yml up)
 
 
